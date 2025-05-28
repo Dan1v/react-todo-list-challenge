@@ -40,7 +40,7 @@ export const TaskForm = ({ isOpen, onClose }: TaskFormProps) => {
 
         <label>Priority:</label>
         <select {...register("priority")}>
-          <option value="">Selecciona</option>
+          <option value="">Select One</option>
           <option value="Urgent">Urgent</option>
           <option value="High">High</option>
           <option value="Normal">Normal</option>
